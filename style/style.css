@@ -1,0 +1,88 @@
+body {
+    width: 1600px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inter-Inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1A0B2E;
+    height: 92px;
+}
+
+.firsth2 {
+    color: #FFFFFF;
+    height: 50px;
+    width: 219px;
+    font-size: 45px;
+    font-weight: bold;
+    /* align-items: center;
+    text-align: center;
+    justify-content: center; */
+}
+
+.h1color {
+    background: linear-gradient(40deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+      -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu {
+    font-size: 16px;
+    color: #FFFFFF;
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+}
+
+.btn1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    background: linear-gradient( 40deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    padding: 12px 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+
+}
+
+.btn1:hover {
+        background-color: #555;
+}
+
+#audio {
+    background: url(../assets/hero-bg.png);
+    height: 760px;
+    border-top: 1px solid #58219f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.audiodiv {
+    height: 558px;
+    width: 550px;
+    background-color: #F7E93F;
+    background: url(../assets/hero-circle.png);
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
