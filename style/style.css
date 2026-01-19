@@ -270,3 +270,9 @@ body {
 .last {
     height: 260px;
 }
+
+#features {
+    height: 1276px;
+    padding: 120px 200px;
+    background-color: #1A0B2E;
+}
