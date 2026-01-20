@@ -378,3 +378,84 @@ body {
     border-radius: 50%;
     padding: 9px;
 }
+
+#footer {
+    height: 412px;
+    background: url(../assets/footer-bg.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footericons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 32px;
+    gap: 40px;
+    font-size: 16px;
+    color: #ffffff8b;
+}
+
+.footerp1 {
+    font-size: 16px;
+    color: #ffffff61;
+}
+
+.footerh2 {
+    color: #FFFFFF;
+    height: 65px;
+    width: 360px;
+    font-size: 75px;
+    font-weight: bold;
+    
+}
+
+@media  screen and (max-width:576px) {
+    .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1A0B2E;
+    height: 92px;
+}
+
+/* .firsth2 {
+    color: #FFFFFF;
+    height: 50px;
+    width: 219px;
+    font-size: 45px;
+    font-weight: bold;
+    /* align-items: center;
+    text-align: center;
+    justify-content: center; */
+}
+
+.h1color {
+    background: linear-gradient(40deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+      -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.btn1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    background: linear-gradient( 40deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    padding: 12px 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+
+}
+
+.btn1:hover {
+        background-color: #555;
+}
+}
